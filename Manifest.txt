@@ -1,0 +1,16 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+bin/backofen
+lib/backofen.rb
+lib/backofen/cli.rb
+script/console
+script/destroy
+script/generate
+spec/backofen_cli_spec.rb
+spec/backofen_spec.rb
+spec/spec.opts
+spec/spec_helper.rb
+tasks/rspec.rake
