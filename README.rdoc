@@ -16,18 +16,19 @@ Backofen is currently just a proof of concept. Yes, its working (at least for me
 
 Your pre-commit hook should look like that:
 
-#!/bin/sh
-backofen -p $(pwd)
+  #!/bin/sh
+  backofen -p $(pwd)
 
 
 == REQUIREMENTS:
 
-gem: git >= 1.2.5
+* Ruby >= 1.8.6
+* Git  >= 1.6.3.2
 
 
 == INSTALL:
 
-gem install backofen --source http://gemcutter.org
+  gem install backofen --source http://gemcutter.org
 
 == LICENSE:
 
