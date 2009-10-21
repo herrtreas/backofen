@@ -1,11 +1,13 @@
 History.txt
 Manifest.txt
-PostInstall.txt
 README.rdoc
 Rakefile
+backofen.gemspec
 bin/backofen
 lib/backofen.rb
 lib/backofen/cli.rb
+lib/backofen/prototype.rb
+path/var/folders/zT/zTM6lYZhGpaRrYEeDiGZJ++++TI/-Tmp-/d20091021-7842-1se7ikinametmp_clone/test1
 script/console
 script/destroy
 script/generate

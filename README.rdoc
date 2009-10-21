@@ -1,32 +1,39 @@
 = backofen
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/rubyphunk/backofen
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Backofen is Distributed Continious Integration node that verifies your changes against an upstream repository by running specs and features against it.
+Its intended to be used as pre-commit hook.
+
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+Backofen is currently just a proof of concept. Yes, its working (at least for me) but needs a lot more development time.
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+Your pre-commit hook should look like that:
+
+#!/bin/sh
+backofen -p $(pwd)
+
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+gem: git >= 1.2.5
+
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+gem install backofen --source http://gemcutter.org
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Andreas Wolff
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

@@ -35,8 +35,7 @@ module Backofen
 
       path = options[:path]
 
-      # do stuff
-      stdout.puts "To update this executable, look in lib/backofen/cli.rb"
+      Backofen::Prototype.run(path)
     end
   end
 end

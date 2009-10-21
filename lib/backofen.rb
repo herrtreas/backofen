@@ -3,4 +3,6 @@ $:.unshift(File.dirname(__FILE__)) unless
 
 module Backofen
   VERSION = '0.0.1'
+
+  autoload :Prototype, 'backofen/prototype'
 end
